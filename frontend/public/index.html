@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Senha Engenharia</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <header class="sidebar-header">
+                <h2>IA ENGENHARIA</h2>
+            </header>
+            <ul class="sidebar-menu">
+                <li><button class="menu-item" data-section="topografia">Topografia</button></li>
+                <li><button class="menu-item" data-section="projeto">Projeto</button></li>
+                <li><button class="menu-item" data-section="orcamento">Orçamento</button></li>
+                <li><button class="menu-item" data-section="automacao">Automação</button></li>
+                <li><button class="menu-item" data-section="aprender">Aprender</button></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <header class="main-header">
+                <h1>Bem-vindo à IA Senha Engenharia</h1>
+                <p>Defina seu usuário para salvar ações realizadas ou arquivos gerados.</p>
+                <div class="user-settings">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" placeholder="Digite seu nome">
+                    <button id="saveUser">Salvar Usuário</button>
+                </div>
+            </header>
+            <section id="content-section">
+                <p>Selecione uma opção no menu lateral para começar.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
